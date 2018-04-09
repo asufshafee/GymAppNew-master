@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#F3F4F5"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3F4F5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSun"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:text="SUN"
+            android:textColor="#FF8B17" />
+
+        <Button
+            android:id="@+id/btnmon"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:text="MON"
+            android:textColor="#FF8B17" />
+
+        <Button
+            android:id="@+id/btntue"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:text="tue"
+            android:textColor="#FF8B17" />
+
+        <Button
+            android:id="@+id/btnwed"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:text="WED"
+            android:textColor="#FF8B17" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#F3F4F5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp">
+
+        <Button
+            android:id="@+id/btnthu"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:text="THU"
+            android:textColor="#FF8B17" />
+
+        <Button
+            android:id="@+id/btnfri"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:text="FRI"
+            android:textColor="#FF8B17" />
+
+        <Button
+            android:id="@+id/btnsat"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:text="Sat"
+            android:textColor="#FF8B17" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:textColor="#FF8B17"
+            android:textStyle="bold"
+            android:text="Text Color Orange == not selected"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:text="Text color Black == selected"/>
+
+    </LinearLayout>
+</LinearLayout>

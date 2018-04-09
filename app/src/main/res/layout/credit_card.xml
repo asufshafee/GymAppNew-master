@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/IVvisa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/visacardsmall" />
+
+        <ImageView
+            android:id="@+id/IVamericanExpress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/americanexpresscardsmall" />
+
+        <ImageView
+            android:id="@+id/IVmasterCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/mastercardsmall" />
+
+        <ImageView
+            android:id="@+id/IVskrill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/skrillcardsmall" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Credit card number"
+            android:textColor="#8e8484"
+            android:textSize="17dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/CardNumber"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#fff"
+                android:maxLength="19"
+                android:inputType="number"
+                android:textColor="#000000" />
+
+            <!--   <ImageView
+                   android:id="@+id/Card"
+                   android:layout_width="40dp"
+                   android:layout_height="30dp"
+                   android:background="@drawable/visacardsmall" />-->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/Date_Year"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:backgroundTint="#fff"
+                android:hint="MM/YY"
+                android:maxLength="5"
+                android:inputType="date"
+                android:textColorHint="#b7afaf"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Code"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#fff"
+                android:drawableRight="@drawable/smalll_eye"
+                android:hint="CVC code"
+                android:maxLength="3"
+                android:inputType="date"
+                android:textColorHint="#b7afaf"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/ZIP"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#fff"
+                android:drawableRight="@drawable/smalll_eye"
+                android:hint="Billing postal code"
+                android:inputType="text"
+                android:textColorHint="#b7afaf"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="*All informations you entered will be kept safe always"
+            android:textColor="#aea1a1" />
+
+        <Button
+            android:id="@+id/proceed_to_payment"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonshape"
+            android:text="Proceed to Payment"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/profile_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/below"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/headerandroid">
+
+        <ImageView
+            android:id="@+id/drawer"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/side_menu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Profile"
+            android:textColor="#efe0ae"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/profilepic"
+            app:civ_border_color="#a7a7a7"
+            app:civ_border_width="3dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Muhammad Asif"
+            android:textColor="#efe0ae"
+            android:textSize="18dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Available days"
+                android:textColor="#fd8002"
+                android:textSize="16sp"/>
+            <Button
+                android:id="@+id/select_days"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Select"
+                android:background="@drawable/buttonshape"
+                android:textColor="#fff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Available hours"
+                android:textColor="#fd8002"
+                android:textSize="16sp"/>
+            <Button
+                android:id="@+id/select_hours"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Select"
+                android:background="@drawable/buttonshape"
+                android:textColor="#fff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Skills: "
+                android:textColor="#fd8002"/>
+            <EditText
+                android:id="@+id/skills"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:hint="(seperated by comma)"
+                android:textColorHint="#d2d2d2"
+                android:backgroundTint="#fff"
+                android:singleLine="true"
+                android:textColor="#fff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Experience: "
+                android:gravity="center"
+                android:textColor="#fd8002"/>
+            <EditText
+                android:id="@+id/experience"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:hint="(In years)"
+                android:textColorHint="#d2d2d2"
+                android:backgroundTint="#fff"
+                android:inputType="number"
+                android:maxLength="2"
+                android:singleLine="true"
+                android:textColor="#fff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Cost/hour: $"
+                android:gravity="center"
+                android:textColor="#fd8002"/>
+            <EditText
+                android:id="@+id/cost"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="#d2d2d2"
+                android:inputType="number"
+                android:backgroundTint="#fff"
+                android:singleLine="true"
+                android:textColor="#fff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Address: "
+                android:textColor="#fd8002"/>
+            <EditText
+                android:id="@+id/address"
+                android:focusable="false"
+                android:enabled="true"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="#d2d2d2"
+                android:backgroundTint="#fff"
+                android:singleLine="true"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.6"
+        android:gravity="center">
+        <Button
+            android:id="@+id/update_profile"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/buttonshape"/>
+    </LinearLayout>
+
+</LinearLayout>

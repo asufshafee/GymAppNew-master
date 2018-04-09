@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners
+        android:topLeftRadius="6dp"
+        android:topRightRadius="6dp"
+        android:bottomRightRadius="0dp"
+        android:bottomLeftRadius="0dp">
+    </corners>
+
+    <style android:name="TextAppearance.Tabs.Selected">
+        <item android:name="android:textStyle">bold</item>
+    </style>
+
+    <solid
+        android:color="#F0F0F0"
+        />
+
+
+</shape>
+

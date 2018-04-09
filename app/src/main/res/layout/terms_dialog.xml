@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/frontalbackgroundimageandroid"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F39712">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="20dp"
+            android:text="Terms and Conditions"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#F7BB68">
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:textColor="#413232"
+                    android:text="Lorem ipsumdolor sit amet, consectet \n ur adipiscing elit, sed do eiusmod tem \n or incididunt ut labore et dolor magna \n aliqua. Ut enim at minim veniam, quis \n nostrud exercitation ullamco laboris ni \n si ut aliquip ex ea commodo consequat. \n Duis aute irure dolor \n \n in reprehenderit in voluptate velit esse \n cillum dolore eu fugiat nulla pariatur. \n Excepteur sint occaecat cupidatat non \n proident, sunt in qulpa qui officia dese \n runt mollit anim id est laborum \n \n in reprehenderit in voluptate velit esse \n cillum dolore eu fugiat nulla pariatur."/>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ok"
+                android:id="@+id/ok"
+                android:textColor="#413232"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Cancel"
+                android:id="@+id/cancel"
+                android:textColor="#413232"
+                android:textSize="17dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

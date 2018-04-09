@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Click"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#232639"
+    android:orientation="vertical"
+    android:padding="13dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="5dp"
+        android:background="#383b4e"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="8dp"
+            android:padding="1dp"
+            android:src="@drawable/person"
+            android:tint="@android:color/white"
+            app:civ_border_color="#6e6197"
+            app:civ_border_width="3dp"
+            app:civ_fill_color="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="200dp"
+                android:text="Muhammad Asif"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="200dp"
+                android:text="....."
+                android:textColor="#b69dc7" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

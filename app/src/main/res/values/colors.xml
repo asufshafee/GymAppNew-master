@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#464861</color>
+    <color name="colorPrimaryDark">#464861</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="spots_dialog_color">#ffff8800</color>
+    <color name="darkblue">#FF0099CC</color>
+    <color name="darkpurple">#FF9933CC</color>
+    <color name="darkgreen">#FF669900</color>
+    <color name="darkorange">#FFFF8800</color>
+
+    <color name="app_background">#199f9c</color>
+<!--    <integer-array name="rainbow">
+        <item>#ffff8800</item>
+        <item>#464861</item>
+        <item>#cabdaf</item>
+        <item>#ab7c47</item>
+    </integer-array>-->
+</resources>

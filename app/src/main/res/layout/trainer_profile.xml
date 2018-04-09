@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:gpb="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2b2e3d"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/drawer"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/side_menu" />
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="70dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="70dp" />
+
+            <Button
+                android:id="@+id/personal_info"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="5dp"
+                android:padding="5dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonshape"
+                android:text="Update Personal info"
+                android:textColor="#fff"
+                android:textSize="8dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textColor="#ffd9a2"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:text=" "
+            android:textColor="#ffd9a2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#232639"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo"
+                app:civ_border_color="#a7a7a7"
+                app:civ_border_width="1dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cost:  "
+                android:textColor="#ea9d1b"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/cost"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#fff"
+                android:gravity="center"
+                android:lines="1"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text=""
+                android:textColor="#ea9d1b"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" /Session"
+                android:textColor="#ea9d1b"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Available Hours: "
+                android:textColor="#ea9d1b"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/select_hours"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/buttonshape"
+                android:text="select"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Available Days:    "
+                android:textColor="#ea9d1b"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/select_days"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/buttonshape"
+                android:text="select"
+                android:textColor="#fff" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/update_profile"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="@drawable/buttonshape"
+                android:text="Update Profile"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_centerVertical="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enter Amount"
+                    android:textColor="#FF8B17"
+                    android:textSize="18dp"
+                    android:textAlignment="center" />
+                <EditText
+                    android:id="@+id/editTextAmount"
+                    android:layout_marginTop="20dp"
+                    android:hint="100"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/buttonPay"
+                    android:text="Pay Now"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+</RelativeLayout>

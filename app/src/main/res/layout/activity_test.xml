@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Method"
+        android:textColor="#000" 
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/training_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trainer History"
+        android:textColor="#000" 
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="#000" 
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/login_trainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login New Trainer"
+        android:textColor="#000" 
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/register_trainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register New Trainer"
+        android:textColor="#000" 
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/trainee_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login New Trainee"
+        android:textColor="#000" 
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/register_trainee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register New Trainee"
+        android:textColor="#000" 
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trainee DashBoard"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trainer History"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+    
+
+
+</LinearLayout>
+</ScrollView>
